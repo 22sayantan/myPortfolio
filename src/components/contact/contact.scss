@@ -1,0 +1,134 @@
+.contact{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    .left{
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // justify-content: center;
+
+        h2{
+            font-family: serif;
+            font-size: 30px;
+            color: blueviolet;
+            text-transform: capitalize;
+            padding-bottom: 4rem;
+        }
+        .contactForm{
+            display: flex;
+            flex-direction: column;
+            
+            input,label,textarea{
+                font-family: serif;
+                font-size: 18px;
+            }
+
+            input{
+                background-color: transparent;
+                height: 2rem;
+                width: 20rem;
+                outline: 0;
+                border: transparent;
+                border-bottom: 1px solid #000;;
+            }
+
+            input:focus{
+                transform: scale(1.1);
+            }
+            input:focus::placeholder{
+                color: transparent;
+            }
+
+            textarea{
+                height: 10rem;
+                width: 24rem;
+                outline: 0;
+                padding: 10px;
+            }
+
+            textarea:focus{
+                transform: scale(1.1);
+            }
+
+            button{
+                height: 2.7rem;
+                font-size: 18px;
+                font-family: serif;
+                width: 5.4rem;
+                color: white;
+                background-color: blue;
+                outline: 0;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                margin: 2rem 0 0 8rem;
+
+                i{
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+
+    .right{
+        flex: 5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .myCard{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: right;
+            height: 15rem;
+            width: 27rem;
+            background: linear-gradient(45deg, salmon, whitesmoke);
+
+            img{
+                height: 9rem;
+                width: 9rem;
+                border: 3px solid white;
+                border-radius: 50% 0% 50%50%;
+                background-color: gray;
+                object-fit: cover;
+            }
+            
+            .CardContent{
+                margin: 10px;
+                margin-left: 15px;
+                padding: 10px;
+                line-height: 1.4rem;
+                font-family: cursive;
+
+                h2{
+                    font-size: 26px;
+                    color: blue;
+                }
+
+                h3{
+                    color: blueviolet;
+                }
+
+                .link{
+                    cursor: pointer;
+                    display: inline-flex;
+                    margin-right: 10px;
+                    font-size: 20px;
+                }
+
+                h6{
+                    font-size: 14px;
+                }
+
+                h2,h3,h4,h5,h6{
+                    padding-bottom: 7px;
+                }
+            }
+        }
+    }
+}

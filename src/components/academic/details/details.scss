@@ -1,0 +1,32 @@
+.details{
+    display: flex;
+    flex-direction: column;
+    
+    height: 8rem;
+    width: 26rem;
+    margin: 10px;
+    padding-left: 1rem;
+    padding-top: 0.6rem;
+    
+    background-color: white;
+    outline: 1px solid gray;
+    
+    font-family: sans-serif;
+    
+    box-shadow: 4px 4px 4px gray;
+    border-radius: 10px;
+
+    line-height: 1.6rem;
+
+    background: linear-gradient(45deg,lightblue,white);
+
+    .standard{
+        color: brown;
+        margin: 10px 0;
+    }
+    .marks_passout{
+        color: green;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}

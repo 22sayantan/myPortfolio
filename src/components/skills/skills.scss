@@ -1,0 +1,59 @@
+.skills{
+    height: 100vh;
+    padding-top: 0;
+    margin-top: 0;
+    top: 0;
+    font-family: serif;
+    
+    
+    .title{
+        font-size: 40px;
+        font-family: serif;
+        color: blueviolet;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    .container{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .tech{
+            flex: 7;
+            
+            display: flex;
+            justify-content: center;
+    
+            ul{
+                list-style-type: circle;
+                line-height: 5rem;
+    
+                li{
+                    font-family: cursive;
+                    font-size: 24px;
+                    color: blue;
+                }
+            }
+        }
+
+        .soft{
+            display: flex;
+            // justify-content: center;
+            flex: 3;
+            
+            ul{
+                list-style-type: circle;
+                line-height: 5rem;
+    
+                li{
+                    font-family: cursive;
+                    font-size: 24px;
+                    color: green;
+                }
+            }
+        }
+    }
+
+}

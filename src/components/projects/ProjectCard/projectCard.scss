@@ -1,0 +1,56 @@
+.projectCard{
+    height: 10rem;
+    width: 40rem;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    display: flex;
+
+
+    .projectImg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        img{
+            height: 9rem;
+            width: 14rem;
+
+            border: 2px solid red;
+            border-radius: 10px;
+            
+            margin-left: 5px;
+        }
+    }
+
+    .projectDetails{
+        padding: 5px 10px;
+
+        h1,h3,h4,h6{
+            margin: 8px 5px;
+        }
+
+        h1{
+            color: black;
+
+            i{
+                cursor: pointer;
+                color: blue;
+                font-size: 22px;
+            }
+        }
+
+        h3{
+            color: gray;
+        }
+
+        h4{
+            display: flex;
+            color: salmon;
+        }
+        h6{
+            color: blueviolet;
+            fZ: 14px;
+        }
+    }
+}
