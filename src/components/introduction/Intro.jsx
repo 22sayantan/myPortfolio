@@ -1,6 +1,6 @@
 import './intro.scss'
 import myImg from '../../assets/myImg.jpeg';
-import Resume from '../../../public/myResume1.0.pdf'
+import Resume from '../../assets/myResume1.0.pdf'
 
 export default function Intro() {
   return (
