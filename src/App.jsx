@@ -1,7 +1,7 @@
 import './App.css'
 import Academic from './components/academic/Academic'
 import Contact from './components/contact/Contact'
-import Intro from './components/introduction/intro'
+import Intro from './components/introduction/Intro'
 import Project from './components/projects/Project'
 import Skills from './components/skills/Skills'
 import Navbar from './components/Navbar/Navbar'
