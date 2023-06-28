@@ -1,6 +1,7 @@
 import './intro.scss'
 import myImg from '../../assets/myImg.jpeg';
 import Resume from '../../assets/myResume1.0.pdf'
+import { Link } from 'react-router-dom';
 
 export default function Intro() {
   return (
@@ -27,7 +28,7 @@ export default function Intro() {
                   make thing so smooth and easier to user or client.
                 </p>
                       
-                <a href=""><button className='btn'>Hire Me</button></a>
+                <Link to='/contact'><button className='btn'>Hire Me</button></Link>
                 <a href={Resume} download={Resume}><button className='btnR'>Resume<i className="fa-solid fa-download"></i></button></a>
               </div>
             </div>
