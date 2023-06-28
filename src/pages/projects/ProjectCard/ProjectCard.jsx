@@ -6,11 +6,11 @@ const ProjectCard = ({title,tech,feature,timestamp,projectLink}) => {
     <>
       <div className='projectCard'>
         <div className="projectImg">
-          {/* <img src="" alt="" /> */}
+          <img src="" alt="" />
         </div>
 
         <div className="projectDetails">
-          <h1>{title} <a href={projectLink}><i className="fa-solid fa-arrow-up-right-from-square"></i></a></h1>
+          <h2>{title} <a href={projectLink}><i className="fa-solid fa-arrow-up-right-from-square"></i></a></h2>
           <h3>{tech}</h3>
           <h4>{feature}</h4>
           <h6>{timestamp}</h6>

@@ -3,11 +3,10 @@ import Details from './details/Details'
 
 export default function Academic() {
   return (
-    <section className='academic'>
+    <section className='academic' id='academic'>
       <h1 className='title'>Academic</h1>
       
       <div className="container">
-        <div className="col1">
           <Details 
             standard="10th"
             institute="Kola Union High School"
@@ -16,17 +15,6 @@ export default function Academic() {
             marks="68.43%"
           />
 
-
-          <Details 
-            standard="Diploma"
-            institute="Ramkrishna Mission Shilpamandira"
-            board="West Bengal State Council of Technical Educaiton"
-            year="2018"
-            marks="8.3"
-          />
-        </div>
-
-        <div className="col2">
           <Details 
             standard="12th"
             institute="Kola Union High School"
@@ -36,13 +24,20 @@ export default function Academic() {
           />
           
           <Details 
+            standard="Diploma"
+            institute="Ramkrishna Mission Shilpamandira"
+            board="West Bengal State Council of Technical Educaiton"
+            year="2018"
+            marks="8.3"
+          />
+
+          <Details 
             standard="B.Tech"
             institute="- College of Engineering & Management,Kolaghat"
             board="Maulana Abul Kalam Azad University"
             year="2022"
             marks="8.66"
           />
-        </div>
       </div>
 
     </section>

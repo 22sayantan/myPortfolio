@@ -1,8 +1,13 @@
 .contact{
     display: flex;
     height: 100vh;
-    align-items: center;
-    justify-content: center;
+    // flex-direction: column;
+
+    position: relative;
+    padding-top: 8vh;
+
+    overflow:auto;
+    // border: 1px solid red;
 
     .left{
         flex: 5;
@@ -14,7 +19,7 @@
         h2{
             font-family: serif;
             font-size: 30px;
-            color: blueviolet;
+            color: #606060;
             text-transform: capitalize;
             padding-bottom: 4rem;
         }
@@ -47,7 +52,10 @@
                 height: 10rem;
                 width: 24rem;
                 outline: 0;
+
                 padding: 10px;
+                resize: none;
+                border-radius: 5px;
             }
 
             textarea:focus{
@@ -56,13 +64,14 @@
 
             button{
                 height: 2.7rem;
-                font-size: 18px;
-                font-family: serif;
                 width: 5.4rem;
-                color: white;
-                background-color: blue;
+                
+                font-size: 16px;
+                font-family: sans-serif;
+                color: #0101a7;
+                background-color: transparent;
                 outline: 0;
-                border: none;
+                border: 2px solid navy;
                 border-radius: 5px;
                 cursor: pointer;
                 margin: 2rem 0 0 8rem;
@@ -87,12 +96,15 @@
             float: right;
             height: 15rem;
             width: 27rem;
-            background: linear-gradient(45deg, salmon, whitesmoke);
+            background-image: linear-gradient(to top right, #62a4ff,#a3c9ff,#e8f2ff, #f8fafd,#fefefe,white);
+            border: 1px solid #dae9ff;
+            border-radius: 5px;
+            box-shadow: 3px 3px 3px#bdc0c5;
 
             img{
                 height: 9rem;
                 width: 9rem;
-                border: 3px solid white;
+                border: 3px solid #bbbbbb;
                 border-radius: 50% 0% 50%50%;
                 background-color: gray;
                 object-fit: cover;
@@ -103,15 +115,15 @@
                 margin-left: 15px;
                 padding: 10px;
                 line-height: 1.4rem;
-                font-family: cursive;
+                font-family: sans-serif;
 
                 h2{
                     font-size: 26px;
-                    color: blue;
+                    color: #01015e;
                 }
 
                 h3{
-                    color: blueviolet;
+                    color: #5c5c5c;
                 }
 
                 .link{
@@ -119,6 +131,8 @@
                     display: inline-flex;
                     margin-right: 10px;
                     font-size: 20px;
+
+                    color: #505050;
                 }
 
                 h6{

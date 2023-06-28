@@ -3,7 +3,7 @@ import myDp from '../../assets/myDp.jpeg'
 
 export default function Contact() {
   return (
-    <section className='contact'>
+    <section className='contact' id='contact'>
       <div className="left">
         <h2>contact form</h2>
         

@@ -6,7 +6,7 @@ const Details = ({standard,institute,board,year,marks}) => {
     <>
         <div className='details'>
             <div className="standard">
-                <h1>{standard}</h1>
+                <h1><i className='bx bxs-institution' ></i> {standard}</h1>
             </div>
             <div className="institute">
                 <h4>{institute}</h4>

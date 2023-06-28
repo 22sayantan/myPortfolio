@@ -5,13 +5,9 @@ import Resume from '../../assets/myResume1.0.pdf'
 export default function Intro() {
   return (
       <>
-        <section className='intro'>
-
-          <div className="left">
-            <img src={myImg} className='myImg'/>
-          </div>
+        <section className='intro' id='intro'>
                 
-          <div className="right">
+          <div className="left">
             <div className="content">
               <div className="name">
                 <h1>Sayantan Dolui</h1>
@@ -35,6 +31,11 @@ export default function Intro() {
                 <a href={Resume} download={Resume}><button className='btnR'>Resume<i className="fa-solid fa-download"></i></button></a>
               </div>
             </div>
+          </div>
+          
+          
+          <div className="right">
+            <img src={myImg} className='myImg'/>
           </div>
         </section>
       </>

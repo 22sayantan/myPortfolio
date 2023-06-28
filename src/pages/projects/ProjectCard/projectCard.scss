@@ -1,0 +1,71 @@
+.projectCard{
+    height: 18rem;
+    width: 14rem;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    .projectImg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        img{
+            height: 10rem;
+            width: 13rem;
+
+            border: 2px solid red;
+            border-radius: 10px;
+            
+            margin: 5px;
+        }
+    }
+
+    .projectDetails{
+        display: flex;
+        flex-direction: column;
+
+        margin: 0 auto;
+        font-family: sans-serif;
+
+        h2{
+            display: flex;
+            align-items: center;
+            
+
+            a{
+                display: flex;
+                justify-content: center;
+                i{
+                    color: #505666;
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        h3{
+            color: #858585;
+            font-size: 15px;
+        }
+
+        h4{
+            width: 12rem;
+            font-size: 13px;
+            text-align: justify;
+
+            // truncate code for 2 line 
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+
+            margin-left: 3px;
+        }
+        h6{
+            color: #999999;
+        }
+    }
+}
