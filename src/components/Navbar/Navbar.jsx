@@ -1,10 +1,12 @@
 import { NavLink } from 'react-router-dom'
 import './navbar.scss'
+import MyDp from '../../assets/myDp.jpeg'
 
 export default function Header() {
   return (
     <div className='header'>
       <div className="left">
+        <img src={MyDp} alt="" className="dp" />
         Sayantan Dolui
       </div>
 

@@ -1,6 +1,7 @@
 import './intro.scss'
+
 import myImg from '../../assets/myImg.jpeg';
-import Resume from '../../assets/myResume1.0.pdf'
+import Resume from '../../assets/Sayantan_resume_4.0.pdf'
 import { Link } from 'react-router-dom';
 
 export default function Intro() {
@@ -20,16 +21,15 @@ export default function Intro() {
                     
               <div className="profile">
                 <p> 
-                  Being a front-end developer builds the front-end portion of websites
-                  and web applications—the part users see and interact with.
-                  A front-end developer creates websites and applications using 
-                  web languages such as HTML, CSS, and JavaScript that allow users 
-                  to access and interact with the site or app.Also using React library to 
-                  make thing so smooth and easier to user or client.
+                As an aspiring Front-End Developer, I am enthusiastic about crafting user-centric digital experiences that seamlessly blend aesthetics with functionality. With a solid foundation in HTML, CSS, and JavaScript, coupled with a keen eye for design, I am eager to contribute my skills to create visually appealing and responsive web applications. My dedication to staying updated with the latest web trends and technologies drives my commitment to delivering engaging and intuitive user interfaces.
                 </p>
                       
-                <Link to='/contact'><button className='btn'>Hire Me</button></Link>
-                <a href={Resume} download={Resume}><button className='btnR'>Resume<i className="fa-solid fa-download"></i></button></a>
+                <Link to='/contact'>
+                  <button className='btn'>Hire Me</button>
+                </Link>
+                <a href={Resume} download={Resume}>
+                  <button className='btnR'>Resume<i className="fa-solid fa-download"></i></button>
+                </a>
               </div>
             </div>
           </div>

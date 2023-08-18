@@ -9,7 +9,7 @@ function Skills() {
     setNavtoggle(index);
   }
 
-  const Tech_skills = ['Data Analytics','Front End Development','cloud','Back End Development','DevOps'];
+  const Tech_skills = ['Data Analytics ( Python , MS-Excel)','Front End ( HTML5, CSS3, JavaScript, React.js, SASS )','Back End ( Node.js, Express.js )','DataBase ( MySQL,Mongodb)','Version Control ( Git, Github )', 'Programming languages( C , C++)'];
   
   const soft_skills = ['time managment','interpersonal skill', 'leadership','team player','communication'];
 
