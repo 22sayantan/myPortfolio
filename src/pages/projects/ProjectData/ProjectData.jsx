@@ -1,9 +1,9 @@
-function ProjectData() {
-  const Data = [
-    {
+ export const ProjList = [
+      {
       id: 1,
       img: "",
       title: "YouTube Clone",
+      tech: "html, css, js",
       category: "javascript",
     },
     {
@@ -58,7 +58,7 @@ function ProjectData() {
       id: 10,
       img: "",
       title: "netflix clone",
-      category: "react.js",
+      category: "next.js",
     },
     {
       id: 11,
@@ -74,12 +74,24 @@ function ProjectData() {
     },
   ];
 
-  const low = Data.map((item)=>(item.category))
-  return( 
-    
-    console.log(low.filter((e)=> e === 'javascript').length)
-)}
+  export const ProjHeaderList = [
+    {
+      id:1,
+      item: 'javascript',
+    },
+    {
+      id:2,
+      item: 'react.js',
+    },
+    {
+      id:3,
+      item: 'next.js',
+    },
+    {
+      id:4,
+      item: 'python',
+    },
+  ];
+  
 
-ProjectData();
 
-// export default ProjectData;

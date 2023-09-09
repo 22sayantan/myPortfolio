@@ -40,8 +40,33 @@
         width: 90%;
         margin: 10px auto;
         display: flex;
+        flex-wrap: wrap;
         column-gap: 2rem;
 
-        border: 1px solid ye;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .project{
+        height: fit-content;
+        .title{
+            font-size: 30px;
+            margin-bottom: 0.7rem;
+        }
+        .skill_nav{
+            width: 24rem;
+            margin-bottom: 0.7rem;
+            ul{
+                justify-content: space-evenly;
+
+                li{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+        .content{
+            margin: 5px auto;
+            gap: 0.7rem;
+        }
     }
 }

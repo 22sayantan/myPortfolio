@@ -32,6 +32,24 @@
             column-gap: 2rem;
             row-gap: 1rem;
             margin: auto;
-            // border: 1px solid blue;
         }
+}
+
+@media only screen and (max-width: 600px){
+    .academic{   
+        height: fit-content; 
+            .title{
+                height: 5vh;
+    
+                font-size: 34px;
+                margin-top: 6vh;
+                margin-bottom: 4rem;
+            }
+    
+            .container{
+                height: 40%;
+                width: 80%;
+                gap: 0.8rem;
+            }
+    }
 }

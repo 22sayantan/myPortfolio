@@ -33,39 +33,82 @@
         h2{
             display: flex;
             align-items: center;
-            
+            text-transform: capitalize;
 
-            a{
-                display: flex;
-                justify-content: center;
-                i{
-                    color: #505666;
-                    font-size: 14px;
-                    margin-left: 5px;
-                }
-            }
         }
-
+        
         h3{
             color: #858585;
-            font-size: 15px;
+            font-size: 14px;
+            text-transform: capitalize;
         }
-
+        
         h4{
             width: 12rem;
             font-size: 13px;
             text-align: justify;
-
+            
             // truncate code for 2 line 
             display: -webkit-box;
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
             overflow: hidden;
-
+            
             margin-left: 3px;
         }
         h6{
             color: #999999;
+        }
+        a{
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            i{
+                color: blueviolet;
+                font-size: 14px;
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .projectCard{
+        height: 10rem;
+        width: 8rem;
+        border-radius: 4px;
+
+        .projectImg{
+            img{
+                height: 5rem;
+                width: 7.2rem;
+
+                border: 1px solid green;
+                border-radius: 3px;
+            }
+        }
+
+        .projectDetails{
+            padding-left: 4px;
+            h2{
+                font-size: 0.7rem;
+            }
+            h3{
+                font-size: 0.6rem;
+            }
+            h4{
+                font-size: 12px;
+            }
+            h6{
+                font-size: 9px;
+            }
+            a{
+                justify-content: start;
+                i{
+                    font-size: 8px;
+                    margin-left: 1px;
+                }
+            }
         }
     }
 }

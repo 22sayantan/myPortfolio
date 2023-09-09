@@ -1,43 +1,76 @@
-.details{
-    height: 10rem;
-    width: 25rem;
+.details {
+  height: 10rem;
+  width: 25rem;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 
-    margin: 10px;
-    padding-left: 1rem;
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    
-    background-color: transparent;
-    font-family: sans-serif;
+  margin: 10px;
+  padding-left: 1rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
 
-    border: 1px solid #e9e9e9;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px #d1d1d1;
+  background-color: transparent;
+  font-family: sans-serif;
 
-    background-image: linear-gradient(to top right,#959595,#ababab,#d7d7d7,#f4f4f4,#f7f7f7,#fdfdfd,#ffffff);
+  border: 1px solid #777;
+  border-radius: 10px;
 
-    .standard{
-        color: brown;
-        margin: 10px 0;
+  .standard {
+    color: brown;
+    margin: 10px 0;
 
-        h1{
-            display: flex;
-            align-items: center;
-            justify-content: start;
+    h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
-            i{
-                margin-right: 5px;
-            }
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+  .marks_passout {
+    color: green;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .details {
+    height: 8rem;
+    width: 22rem;
+
+    margin: 7px;
+    padding-left: 0.8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 7px;
+
+    .standard {
+      margin: 5px 0;
+
+      h1 {
+        font-size: 20px;
+        i {
+          margin-right: 3px;
         }
+      }
     }
-    .marks_passout{
-
-        color: green;
-        font-size: 18px;
-        font-weight: 400;
+    .institute {
+      font-size: 14px;
+      color: darkslategray;
     }
+    .board_or_university{
+        font-size: 12px;
+        color: darkslategray;
+    }
+    .marks_passout {
+      color: green;
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
 }

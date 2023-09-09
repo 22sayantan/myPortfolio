@@ -50,17 +50,23 @@
         justify-content: center;
 
         .tech{
-            width: 41rem;
+            width: 70rem;
             display: flex;
-            justify-content: center;
+            justify-content: space-evenly;
     
+            div{
+                width: 50%;
+                h2{
+                    text-align: center;
+                }
+            }
             ul{
                 list-style: none;
-                line-height: 5rem;
+                line-height: 4.5rem;
     
                 li{
                     font-family: cursive;
-                    font-size: 24px;
+                    font-size: 1.1rem;
                     color: #606060;
 
                     text-transform: capitalize;
@@ -98,4 +104,45 @@
 
 .hideContent{
     display: none;
+}
+
+
+@media only screen and (max-width: 600px){
+    .skills{
+        height: fit-content;
+        .title{
+            font-size: 30px;
+            margin-bottom: 2rem;
+        }
+        .skill_nav{
+            ul{
+                li{
+                    font-size: 0.9rem;
+                    margin-bottom: 0.6rem;
+                }
+            }
+        }
+
+        .container{
+            .tech{
+                .primary{
+                    margin-right: 1rem;
+                    padding-right: 0.8rem;
+                    border-right: 1px solid gray;
+                }
+                div{
+                    h2{
+                        font-size: 1.2rem;
+                        margin-bottom: 0.6rem;
+                    }
+                }
+                ul{
+                    line-height: 2rem;
+                    li{
+                        font-size: 0.68rem;
+                    }
+                }
+            }
+        }
+    }
 }

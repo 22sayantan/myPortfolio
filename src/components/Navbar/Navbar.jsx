@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom'
 import './navbar.scss'
 import MyDp from '../../assets/myDp.jpeg'
 
@@ -13,19 +12,19 @@ export default function Header() {
       <div className="center">
             <ul>
               <li>
-                <NavLink to='/'>Home</NavLink>
+                <a href='/'>Home</a>
               </li>
               <li>
-                <NavLink to='/academic'>Academic</NavLink>
+                <a href='#academic'>Academic</a>
               </li>
               <li>
-                <NavLink to='/skills'>Skills</NavLink>
+                <a href='#skills'>Skills</a>
               </li>
               <li>
-                <NavLink to='/project'>Projects</NavLink>
+                <a href='#project'>Projects</a>
               </li>
               <li>
-                <NavLink to='/contact'>Contact</NavLink>
+                <a href='#contact'>Contact</a>
               </li>
             </ul>
       </div>

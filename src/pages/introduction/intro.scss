@@ -6,13 +6,10 @@
     padding-top: 5rem;
 
     margin: 0 1rem;
-
     
     .left{
         flex: 6;
         padding: 10px 10rem;
-        
-        // border: 1px solid blue;
         
         .name,.profile,.btn,.btnR{
             margin: 10px 0;
@@ -42,6 +39,8 @@
 
                 line-height: 1.4rem;
                 padding-right: 1rem;
+
+            
             }
         }
         
@@ -105,4 +104,88 @@
             box-shadow: 3px 4px 4px darkslategray;
         }
     }
+}
+
+@media only screen and (max-width: 600px){
+    .intro{
+        height: 90vh;
+        width: 110%;
+        padding-top: 5rem;
+    
+        margin: 0 0.5rem;
+        
+        .left{
+            flex: 9;
+            padding: 3px 1rem;
+            
+            .name,.profile,.btn,.btnR{
+                margin: 5px 0;
+            }
+            
+            .name{
+                font-size: 20px;    
+            }
+            
+            .designation{
+                font-size: 14px;
+            }
+            .profile{   
+                font-size: 0.7rem;
+                padding-bottom: 5rem;
+                
+                p{
+                    margin: 0.5rem;    
+                    font-size: 0.75rem;
+    
+                    line-height: 1rem;
+                    padding-right: 0.5rem;
+                }
+            }
+            
+            .btn{
+                height: 2rem;
+                width: 5rem;
+    
+                color: blue;
+                font-size: 0.8rem;
+    
+                border: 1px solid blue;
+                border-radius: 1rem;
+                margin-right: 1rem;
+            }
+    
+            .btnR{
+                height: 2rem;
+                width: 5rem;
+                
+                color: blueviolet;
+                font-size: 0.8rem;
+                border: 1px solid blueviolet;
+                border-radius: 1rem;
+                
+                margin-left: 1rem;
+    
+                i{
+                    margin-left: 8px;
+                }
+            }
+        }
+    
+        .right{
+            flex: 2;
+            height: 70%;
+            width: 100%; 
+            align-items: flex-start;
+            justify-content: flex-end;   
+            .myImg{
+                height: 12rem;
+                width: 8rem;
+                border-radius: 10px;
+    
+                object-fit: cover;
+                object-position: 30% 1%;
+                box-shadow: 3px 4px 4px darkslategray;
+            }
+        }
+    }   
 }

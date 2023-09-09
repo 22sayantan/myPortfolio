@@ -10,10 +10,11 @@ const ProjectCard = ({title,tech,feature,timestamp,projectLink}) => {
         </div>
 
         <div className="projectDetails">
-          <h2>{title} <a href={projectLink}><i className="fa-solid fa-arrow-up-right-from-square"></i></a></h2>
-          <h3>{tech}</h3>
+          <h2>{title} </h2>
+          <h3>{`[ ${tech} ]`}</h3>
           <h4>{feature}</h4>
-          <h6>{timestamp}</h6>
+          <h6>{`[ ${timestamp} ]`}</h6>
+          <a href={projectLink}><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>
       </div>
     </>

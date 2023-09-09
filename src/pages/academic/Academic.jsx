@@ -33,7 +33,7 @@ export default function Academic() {
 
           <Details 
             standard="B.Tech"
-            institute="- College of Engineering & Management,Kolaghat"
+            institute="College of Engineering & Management,Kolaghat"
             board="Maulana Abul Kalam Azad University"
             year="2022"
             marks="8.66"
