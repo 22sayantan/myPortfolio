@@ -28,10 +28,6 @@ export default function Header() {
               </li>
             </ul>
       </div>
-
-      <div className="right">
-         <i className="fa-solid fa-ellipsis"></i>
-      </div>
     </div>
   )
 }

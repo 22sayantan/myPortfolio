@@ -151,8 +151,9 @@
     }
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
     .contact{
+        height: fit-content;
         .left{
             h2{
                 font-size: 20px;
@@ -192,6 +193,7 @@
             }
         }
         .right{
+            align-items: flex-start;
             .myCard{
                 height: 19rem;
                 width: 12rem;
@@ -201,7 +203,7 @@
                 box-shadow: 2px 2px 2px#bdc0c5;
                 flex-direction: column;
 
-                margin-top: 6rem;
+                margin-top: 2.5rem;
     
                 img{
                     height: 9rem;
