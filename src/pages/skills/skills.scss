@@ -50,26 +50,79 @@
         justify-content: center;
 
         .tech{
-            width: 70rem;
             display: flex;
-            justify-content: space-evenly;
-    
-            div{
-                width: 50%;
-                h2{
-                    text-align: center;
+            flex-direction: column;
+
+            .tech_skill_nav{
+                margin-bottom: 0.7rem;
+            }
+            .techContent{
+                height: 70vh;
+                width: 30rem;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .primary{
+                    display: flex;
+                    ul{
+                        width: 70rem;
+                        display: flex;
+                        text-align: center;
+                        justify-content: flex-start;
+                        flex-wrap: wrap;
+
+                        gap: 4rem;
+                        li{
+                            height: 10rem;
+                            width: 10rem;
+                            text-align: center;
+                            img{
+                                height: 8rem;
+                                width: 8rem;
+
+                                object-fit: cover;
+                            }
+                            h4{
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
+                }
+                .secondary{
+                    display: flex;
+                    ul{
+                        width: 70rem;
+                        display: flex;
+                        text-align: center;
+                        justify-content: flex-start;
+                        flex-wrap: wrap;
+
+                        gap: 4rem;
+                        li{
+                            height: 10rem;
+                            width: 10rem;
+                            text-align: center;
+                            img{
+                                height: 8rem;
+                                width: 8rem;
+
+                                object-fit: cover;
+                            }
+                            h4{
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
                 }
             }
+
             ul{
                 list-style: none;
-                line-height: 4.5rem;
-    
+
                 li{
                     font-family: cursive;
-                    font-size: 1.1rem;
-                    color: #606060;
-
-                    text-transform: capitalize;
                 }
             }
         }

@@ -5,6 +5,8 @@
       title: "YouTube Clone",
       tech: "html, css, js",
       category: "javascript",
+      github: '',
+      live: '',
     },
     {
       id: 2,
@@ -15,7 +17,7 @@
     {
       id: 3,
       img: "",
-      title: "Dad Joke generator",
+      title: "Joke generator",
       category: "javascript",
     },
     {
@@ -51,14 +53,14 @@
     {
       id: 9,
       img: "",
-      title: "spotify clone",
-      category: "react.js",
+      title: "to-do",
+      category: "typescript",
     },
     {
       id: 10,
       img: "",
-      title: "netflix clone",
-      category: "next.js",
+      title: "Web Crawler",
+      category: "node.js",
     },
     {
       id: 11,
@@ -69,9 +71,10 @@
     {
       id: 12,
       img: "",
-      title: "pg rent booking",
-      category: "react.js",
+      title: "web scrapper",
+      category: "python",
     },
+
   ];
 
   export const ProjHeaderList = [
@@ -91,6 +94,14 @@
       id:4,
       item: 'python',
     },
+    {
+      id: 5,
+      item: 'typescript',
+    },
+    {
+      id: 6,
+      item: 'node.js'
+    }
   ];
   
 
