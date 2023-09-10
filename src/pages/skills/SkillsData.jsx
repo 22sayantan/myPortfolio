@@ -13,8 +13,6 @@ import Express from '../../assets/express_js.png'
 import Node from '../../assets/node.png'
 import Excel from '../../assets/excel.png'
 import Python from '../../assets/python.webp'
-// import Cpp from '../../assets/cpp.png'
-// import Cpp from '../../assets/cpp.png'
 
 export const Primary_Tech_skills = [
     {
