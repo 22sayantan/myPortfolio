@@ -29,47 +29,17 @@
     {
       id: 5,
       img: "",
-      title: "tic tac toe",
-      category: "javascript",
-    },
-    {
-      id: 6,
-      img: "",
-      title: "weather app",
-      category: "javascript",
-    },
-    {
-      id: 7,
-      img: "",
-      title: "E-commerce",
-      category: "react.js",
-    },
-    {
-      id: 8,
-      img: "",
       title: "medical app",
       category: "react.js",
     },
     {
-      id: 9,
-      img: "",
-      title: "to-do",
-      category: "typescript",
-    },
-    {
-      id: 10,
+      id: 6,
       img: "",
       title: "Web Crawler",
       category: "node.js",
     },
     {
-      id: 11,
-      img: "",
-      title: "tour & travel",
-      category: "javascript",
-    },
-    {
-      id: 12,
+      id: 7,
       img: "",
       title: "web scrapper",
       category: "python",
@@ -88,18 +58,10 @@
     },
     {
       id:3,
-      item: 'next.js',
-    },
-    {
-      id:4,
       item: 'python',
     },
     {
-      id: 5,
-      item: 'typescript',
-    },
-    {
-      id: 6,
+      id: 4,
       item: 'node.js'
     }
   ];

@@ -162,40 +162,118 @@
 
 @media only screen and (max-width: 600px){
     .skills{
-        height: fit-content;
+        
         .title{
-            font-size: 30px;
-            margin-bottom: 2rem;
+            height: 8vh;
+    
+            font-size: 30px;            
+            text-align: center;
+            margin-top: 6vh;
         }
+    
         .skill_nav{
+            width: 12rem;
+            margin: 0 auto;
             ul{
+                list-style: none;
+    
                 li{
-                    font-size: 0.9rem;
-                    margin-bottom: 0.6rem;
+                        font-size: 1rem;
                 }
             }
         }
-
         .container{
+            width: 70%;
+            margin: auto;
+    
             .tech{
-                .primary{
-                    margin-right: 1rem;
-                    padding-right: 0.8rem;
-                    border-right: 1px solid gray;
+                display: flex;
+                flex-direction: column;
+    
+                .tech_skill_nav{
+                    margin-bottom: 0.3rem;
                 }
-                div{
-                    h2{
-                        font-size: 1.2rem;
-                        margin-bottom: 0.6rem;
+                .techContent{
+                    height: 72vh;
+                    width: 30rem;
+
+                    .primary{
+                        display: flex;
+                        ul{
+                            width: 24rem;
+
+    
+                            gap: 1rem;
+                            margin-left: 1rem;
+                            margin-top: -2rem;
+                            li{
+                                height: 7rem;
+                                width: 7rem;
+                                text-align: center;
+                                img{
+                                    height: 4.5rem;
+                                    width: 4.5rem;
+    
+                                    object-fit: cover;
+                                }
+                                h4{
+                                    font-size: 1rem;
+                                }
+                            }
+                        }
+                    }
+                    .secondary{
+                        display: flex;
+                        ul{
+                            width: 24rem;
+    
+                            gap: 1rem;
+                            li{
+                                height: 7rem;
+                                width: 7rem;
+                                text-align: center;
+                                img{
+                                    height: 4.5rem;
+                                    width: 4.5rem;
+    
+                                    object-fit: cover;
+                                }
+                                h4{
+                                    font-size: 1rem;
+                                }
+                            }
+                        }
                     }
                 }
+    
                 ul{
-                    line-height: 2rem;
+                    list-style: none;
+    
                     li{
-                        font-size: 0.68rem;
+                        font-family: cursive;
+                    }
+                }
+            }
+    
+            .soft{
+                display: flex;
+                justify-content: center;
+                flex: 3;
+                
+                ul{
+                    list-style: none;
+                    line-height: 5rem;
+        
+                    li{
+                        font-family: cursive;
+                        font-size: 24px;
+                        color: #606060;
+    
+                        text-transform: capitalize;
                     }
                 }
             }
         }
+    
     }
 }

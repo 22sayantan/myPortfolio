@@ -47,16 +47,16 @@ export const Primary_Tech_skills = [
     },
     {
         id: 7,
-        img: Cpp,
-        title: 'C++',
+        img: Python,
+        title: 'Python',
     },
   ];
 
   export  const Secondary_Tech_skills = [
     {
         id: 1,
-        img: Python,
-        title:'Python',
+        img: Cpp,
+        title:'C++',
     },
     {
         id: 2,
@@ -88,11 +88,11 @@ export const Primary_Tech_skills = [
         img: Linux,
         title: 'Linux',
     },
-    // "Data Analytics ( Python , MS-Excel)",
-    // "Back End ( Node.js, Express.js )",
-    // "DataBase ( MySQL)",
-    // "Programming languages( C )",
-    // "Operating System(Linux)",
+    {
+        id: 8,
+        img: '',
+        title: 'Java',
+    }
   ];
 
   export const soft_skills = [
