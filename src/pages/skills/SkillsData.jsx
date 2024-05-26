@@ -13,7 +13,7 @@ import Excel from '../../assets/excel.png'
 import Python from '../../assets/python.webp'
 
 import Time from '../../assets/time.png'
-import Communication from '../../assets/Communication.jpg'
+// import Communication from '../../assets/Communication.jpg'
 import Team from '../../assets/interpersonal.png'
 import People from '../../assets/leadership.png'
 
@@ -91,16 +91,16 @@ export const Primary_Tech_skills = [
     },
     {
         id: 2,
-        img: Communication,
+        // img: Communication,
         title: 'Communication'
     },
     {
-        id: 1,
+        id: 3,
         img: Team,
         title: 'Team Player'
     },
     {
-        id: 1,
+        id: 4,
         img: People,
         title: 'People Management'
     },
