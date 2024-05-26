@@ -13,19 +13,18 @@ export default function Intro() {
             </div>
 
             <div className="designation">
-              <h3>SoftWare Engineer (Front-End, Data Analytics)</h3>
+              <h3>Python Developer </h3>
             </div>
 
             <div className="profile">
               <p>
-                As an aspiring Front-End Developer, I am enthusiastic about
-                crafting user-centric digital experiences that seamlessly blend
-                aesthetics with functionality. With a solid foundation in HTML,
-                CSS, and JavaScript, coupled with a keen eye for design, I am
-                eager to contribute my skills to create visually appealing and
-                responsive web applications. My dedication to staying updated
-                with the latest web trends and technologies drives my commitment
-                to delivering engaging and intuitive user interfaces.
+                Enthusiastic and detail-oriented Python developer with a solid
+                foundation in Python programming, Object-Oriented principles,
+                and data structures. Proficient in libraries such as NumPy,
+                Pandas, and Flask, with experience in SQL databases and Git
+                version control. Strong problem-solving skills and a quick
+                learner, eager to contribute to a dynamic team and grow within a
+                forward-thinking organization.
               </p>
 
               <a href="/contact">
