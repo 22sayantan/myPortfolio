@@ -1,6 +1,6 @@
 import "./intro.scss";
 import myImg from "../../assets/myImg.jpeg";
-import Resume from "../../assets/Sayantan_resume_4.0.pdf";
+import Resume from "../../assets/sayantan_resume.pdf";
 
 export default function Intro() {
   return (
@@ -13,7 +13,7 @@ export default function Intro() {
             </div>
 
             <div className="designation">
-              <h3>Front-End Developer</h3>
+              <h3>SoftWare Engineer (Front-End, Data Analytics)</h3>
             </div>
 
             <div className="profile">

@@ -9,10 +9,13 @@ import Cpp from '../../assets/cpp.png'
 import C from '../../assets/cLang.png'
 import Linux from '../../assets/linux.png'
 import Mysql from '../../assets/mysql.png'
-import Express from '../../assets/express_js.png'
-import Node from '../../assets/node.png'
 import Excel from '../../assets/excel.png'
 import Python from '../../assets/python.webp'
+
+import Time from '../../assets/time.png'
+import Communication from '../../assets/Communication.jpg'
+import Team from '../../assets/interpersonal.png'
+import People from '../../assets/leadership.png'
 
 export const Primary_Tech_skills = [
     {
@@ -53,52 +56,52 @@ export const Primary_Tech_skills = [
   ];
 
   export  const Secondary_Tech_skills = [
-    {
-        id: 1,
+      {
+          id: 1,
+          img: C,
+          title: 'C',
+      },
+      {
+        id: 2,
         img: Cpp,
         title:'C++',
     },
     {
-        id: 2,
+        id: 3,
         img: Excel,
         title: 'MS-Excel',
     },
     {
-        id: 3,
-        img: Node,
-        title: 'Node.js',
-    },
-    {
         id: 4,
-        img: Express,
-        title: 'Express.js',
-    },
-    {
-        id: 5,
         img: Mysql,
         title: 'MySQL',
     },
     {
-        id: 6,
-        img: C,
-        title: 'C',
-    },
-    {
-        id: 7,
+        id: 5,
         img: Linux,
         title: 'Linux',
-    },
-    {
-        id: 8,
-        img: '',
-        title: 'Java',
     }
   ];
 
   export const soft_skills = [
-    "time managment",
-    "interpersonal skill",
-    "leadership",
-    "team player",
-    "communication",
+    {
+        id: 1,
+        img: Time,
+        title: 'time management'
+    },
+    {
+        id: 2,
+        img: Communication,
+        title: 'Communication'
+    },
+    {
+        id: 1,
+        img: Team,
+        title: 'Team Player'
+    },
+    {
+        id: 1,
+        img: People,
+        title: 'People Management'
+    },
   ];

@@ -18,7 +18,7 @@
   border-radius: 10px;
 
   .standard {
-    color: brown;
+    color: black;
     margin: 10px 0;
 
     h1 {
@@ -31,10 +31,50 @@
       }
     }
   }
+  .institute{
+    display: flex;
+    align-items: center;
+    .instIcon{
+      height: 2.5rem;
+      width: 2.5rem;
+
+      border: 1px solid black;
+      border-radius: 5px;
+      margin-right: 8px;
+      img{
+        height: 2.5rem;
+        width: 2.5rem;
+  
+        border-radius: 5px;
+        object-fit: cover;
+      }
+    }
+  }
+  .board_or_university{
+    display: flex;
+    align-items: center;
+    .board_logo{
+      height: 2.5rem;
+        width: 2.5rem;
+
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-right: 8px;
+      img{
+        height: 2.5rem;
+        width: 2.5rem;
+
+        border-radius: 5px;
+      }
+    }
+  }
   .marks_passout {
     color: green;
     font-size: 18px;
     font-weight: 400;
+
+    display: flex;
+    align-items: center;
   }
 }
 

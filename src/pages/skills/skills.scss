@@ -130,18 +130,39 @@
         .soft{
             display: flex;
             justify-content: center;
-            flex: 3;
             
             ul{
+                width: 80rem;
                 list-style: none;
                 line-height: 5rem;
-    
+
+                display: flex;
+                justify-content: space-evenly;
+                
                 li{
+                    width: 15rem;
+
                     font-family: cursive;
                     font-size: 24px;
                     color: #606060;
-
+                    
                     text-transform: capitalize;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    img{
+                        height: 8rem;
+                        width: 8rem;
+
+                        object-fit: cover;
+                    }
+
+                    h4{
+                        font-size: 1.2rem;
+                    }
                 }
             }
         }

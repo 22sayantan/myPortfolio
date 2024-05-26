@@ -1,6 +1,10 @@
-import { useState } from "react";
-import {Primary_Tech_skills,Secondary_Tech_skills,soft_skills} from './SkillsData'
 import "./skills.scss";
+import { useState } from "react";
+import {
+  Primary_Tech_skills,
+  Secondary_Tech_skills,
+  soft_skills,
+} from "./SkillsData";
 
 function Skills() {
   const [navtoggle, setNavtoggle] = useState(1);
@@ -13,7 +17,6 @@ function Skills() {
   const TechSkillIndex = (index) => {
     setTechskills(index);
   };
-
 
   return (
     <>
@@ -69,14 +72,20 @@ function Skills() {
               <div className={techskills === 1 ? "primary" : "hideContent"}>
                 <ul>
                   {Primary_Tech_skills.map((e) => (
-                    <li key={e.id}><img src={e.img} alt="no img" /><h4>{e.title}</h4></li>
+                    <li key={e.id}>
+                      <img src={e.img} alt="no img" />
+                      <h4>{e.title}</h4>
+                    </li>
                   ))}
                 </ul>
               </div>
               <div className={techskills === 2 ? "secondary" : "hideContent"}>
                 <ul>
                   {Secondary_Tech_skills.map((e) => (
-                    <li key={e.id}><img src={e.img} alt="no img" /><h4>{e.title}</h4></li>
+                    <li key={e.id}>
+                      <img src={e.img} alt="no img" />
+                      <h4>{e.title}</h4>
+                    </li>
                   ))}
                 </ul>
               </div>
@@ -86,7 +95,10 @@ function Skills() {
           <div className={navtoggle === 2 ? "soft" : "hideContent"}>
             <ul>
               {soft_skills.map((e) => (
-                <li key={e}>{e}</li>
+                <li key={e}>
+                  <img src={e.img} alt="no img" />
+                  <h4>{e.title}</h4>
+                </li>
               ))}
             </ul>
           </div>
