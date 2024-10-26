@@ -1,191 +1,238 @@
-.intro{
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  padding-top: 5rem;
+
+  margin: 0 1rem;
+
+  .left {
+    flex: 6;
+    padding: 10px 10rem;
+
+    .name,
+    .profile,
+    .btn,
+    .btnR {
+      margin: 10px 0;
+      font-family: cursive;
+    }
+
+    .name {
+      font-size: 3rem;
+    }
+
+    .designation {
+      font-family: sans-serif;
+      color: #505050;
+      padding-left: 1rem;
+    }
+    .profile {
+      font-family: sans-serif;
+      font-size: 1rem;
+      padding-bottom: 10rem;
+
+      p {
+        margin: 1rem;
+        color: gray;
+        text-align: justify;
+
+        font-family: sans-serif;
+        font-size: 1rem;
+
+        line-height: 1.4rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+      }
+    }
+
+    .btn {
+      height: 3rem;
+      width: 8rem;
+
+      color: blue;
+      font-size: 1.2rem;
+
+      background-color: transparent;
+      // border-style: none;
+      border: 2px solid blue;
+      border-radius: 1.3rem;
+
+      cursor: pointer;
+      box-shadow: 1px 1px 1px gray;
+      margin-right: 1.4rem;
+    }
+
+    .btnR {
+      height: 3rem;
+      width: 8rem;
+
+      color: blueviolet;
+      font-size: 1.2rem;
+
+      background-color: transparent;
+      // border-style: none;
+      border: 2px solid blueviolet;
+      border-radius: 1.3rem;
+
+      cursor: pointer;
+      box-shadow: 1px 1px 1px gray;
+
+      margin-left: 1.4rem;
+
+      i {
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .right {
+    flex: 3;
     display: flex;
+    height: 70%;
+    width: 100%;
+
     align-items: center;
-    justify-content: center;
-    height: 90vh;
-    padding-top: 5rem;
+    justify-content: flex-start;
+    // border: 1px solid blue;
 
-    margin: 0 1rem;
-    
-    .left{
-        flex: 6;
-        padding: 10px 10rem;
-        
-        .name,.profile,.btn,.btnR{
-            margin: 10px 0;
-            font-family: cursive;
-        }
-        
-        .name{
-            font-size: 3rem;    
-        }
-        
-        .designation{
-            font-family: sans-serif;
-            color: #505050;
-            padding-left: 1rem;
-        }
-        .profile{   
-            font-family: sans-serif;
-            font-size: 1rem;
-            padding-bottom: 10rem;
-            
-            p{
-                margin: 1rem;
-                color: gray;
-                text-align: justify;
+    .myImg {
+      height: 40%;
+      width: 50%;
+      border-radius: 20px;
 
-                font-family: sans-serif;
-                font-size: 1rem;
+      margin-top: -5rem;
+      object-fit: cover;
+      object-position: 30% 1%;
+      box-shadow: 3px 4px 4px darkslategray;
 
-                line-height: 1.4rem;
-                padding-right: 1rem;
-                padding-left: 1rem;
-
-            
-            }
-        }
-        
-        .btn{
-            height: 3rem;
-            width: 8rem;
-
-            color: blue;
-            font-size: 1.2rem;
-
-            background-color: transparent;
-            // border-style: none;
-            border: 2px solid blue;
-            border-radius: 1.3rem;
-
-            cursor: pointer;
-            box-shadow: 1px 1px 1px gray;
-            margin-right: 1.4rem;
-        }
-
-        .btnR{
-            height: 3rem;
-            width: 8rem;
-            
-            color: blueviolet;
-            font-size: 1.2rem;
-            
-            background-color: transparent;
-            // border-style: none;
-            border: 2px solid blueviolet;
-            border-radius: 1.3rem;
-            
-            cursor: pointer;
-            box-shadow: 1px 1px 1px gray;
-            
-            margin-left: 1.4rem;
-
-            i{
-                margin-left: 8px;
-            }
-        }
+      border-radius: 51% 49% 48% 52% / 62% 44% 56% 38%;
+      animation: animate 4s linear infinite;
     }
-
-    .right{
-        flex: 3;
-        display: flex;
-        height: 70%;
-        width: 100%;
-
-        align-items: center;
-        justify-content: flex-start;
-        // border: 1px solid blue;
-
-        .myImg{
-            height: 70%;
-            width: 60%;
-            border-radius: 20px;
-
-            margin-top: -5rem;
-            object-fit: cover;
-            object-position: 30% 1%;
-            box-shadow: 3px 4px 4px darkslategray;
-        }
+    @keyframes animate {
+      0%,
+      100% {
+        border-radius: 51% 49% 75% 52% / 62% 44% 20% 88%;
+      }
+      30% {
+        border-radius: 73% 38% 48% 52% / 44% 36% 56% 38%;
+      }
+      60% {
+        border-radius: 26% 49% 48% 67% / 80% 47% 56% 38%;
+      }
     }
+  }
 }
 
-@media only screen and (max-width: 600px){
-    .intro{
-        height: fit-content;
-        width: 90%;
-        padding-top: 7rem;
-    
-        margin: 0 0.5rem;
-        
-        .left{
-            flex: 7;
-            padding: 3px 1rem;
-            
-            .name,.profile,.btn,.btnR{
-                margin: 5px 0;
-            }
-            
-            .name{
-                font-size: 20px;    
-            }
-            
-            .designation{
-                font-size: 14px;
-            }
-            .profile{   
-                font-size: 0.7rem;
-                padding-bottom: 5rem;
-                
-                p{
-                    margin: 0.5rem;    
-                    font-size: 0.75rem;
-    
-                    line-height: 1rem;
-                    padding-right: 0.5rem;
-                }
-            }
-            
-            .btn{
-                height: 2rem;
-                width: 5rem;
-    
-                color: blue;
-                font-size: 0.8rem;
-    
-                border: 1px solid blue;
-                border-radius: 1rem;
-                margin-right: 1rem;
-            }
-    
-            .btnR{
-                height: 2rem;
-                width: 5rem;
-                
-                color: blueviolet;
-                font-size: 0.8rem;
-                border: 1px solid blueviolet;
-                border-radius: 1rem;
-                
-                margin-left: 1rem;
-    
-                i{
-                    margin-left: 8px;
-                }
-            }
+@media only screen and (max-width: 800px) {
+  .intro {
+    height: fit-content;
+    width: 90%;
+    padding-top: 7rem;
+
+    margin: 0 0.5rem;
+    margin-left: 4rem;
+
+    .left {
+      flex: 7;
+      padding: 3px 1rem;
+
+      .name,
+      .profile,
+      .btn,
+      .btnR {
+        margin: 5px 0;
+      }
+
+      .name {
+        font-size: 2rem;
+      }
+
+      .designation {
+        font-size: 1rem;
+      }
+      .profile {
+        font-size: 0.7rem;
+        padding-bottom: 5rem;
+
+        p {
+          margin: 0.5rem;
+          font-size: 0.8rem;
+
+          line-height: 1rem;
+          padding-right: 0.5rem;
         }
-    
-        .right{
-            flex: 3; 
-            // align-items: flex-start;
-            // justify-content: flex-end;   
-            .myImg{
-                height: 12rem;
-                width: 8rem;
-                border-radius: 10px;
-    
-                top: 0;
-                margin-top: -5rem;
-            }
+      }
+
+      .btn {
+        height: 2rem;
+        width: 5rem;
+
+        color: blue;
+        font-size: 0.8rem;
+
+        border: 1px solid blue;
+        border-radius: 1rem;
+        margin-right: 1rem;
+      }
+
+      .btnR {
+        height: 2rem;
+        width: 6rem;
+
+        color: blueviolet;
+        font-size: 0.8rem;
+        border: 1px solid blueviolet;
+        border-radius: 1rem;
+
+        margin-left: 1rem;
+
+        i {
+          margin-left: 8px;
         }
-    }   
+      }
+    }
+
+    .right {
+      flex: 3;
+      display: flex;
+      height: 10rem;
+      width: 10rem;
+
+      align-items: center;
+      justify-content: flex-start;
+
+    //   border: 1px solid blue;
+      border-radius: 51% 49% 48% 52% / 62% 44% 56% 38%;
+      animation: animate 4s linear infinite;
+      
+      .myImg {
+        height: 5rem;
+        width: 12rem;
+        border-radius: 20px;
+
+        margin-top: -5rem;
+        margin-left: 0.5rem;
+        transform: scale(0.8,1.6);
+        object-fit: cover;
+        object-position: 30% 1%;
+        box-shadow: 3px 4px 4px darkslategray;
+
+      }
+    }
+
+    @keyframes animate {
+      0%,
+      100% {
+        border-radius: 51% 49% 75% 52% / 62% 44% 20% 88%;
+      }
+      30% {
+        border-radius: 73% 38% 48% 52% / 44% 36% 56% 38%;
+      }
+      60% {
+        border-radius: 26% 49% 48% 67% / 80% 47% 56% 38%;
+      }
+    }
+  }
 }

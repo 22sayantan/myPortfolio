@@ -72,14 +72,8 @@ export default function Contact() {
         <h1>Contact Me</h1>
       </header>
       <div className="Contact_me">
-      <h1>mail:</h1>
-      <h3>sayantandolui97@gmail.com</h3>
-      <h1>Phone:</h1>
-      <h3>+91-9093867878</h3>
       <h1>linkedIN</h1>
-      <h3><a href="">link</a></h3>
-      <h1>Whatsapp</h1>
-      <h3>+91-9093867878</h3>
+      <h3><a href="https://www.linkedin.com/in/sayantan-dolui-a59524223">link</a></h3>
       </div>
     </section>
   );

@@ -27,7 +27,7 @@ export default function Intro() {
                 forward-thinking organization.
               </p>
 
-              <a href="/contact">
+              <a href="/#contact">
                 <button className="btn">Hire Me</button>
               </a>
               <a href={Resume} download={Resume}>
@@ -38,6 +38,8 @@ export default function Intro() {
             </div>
           </div>
         </div>
+
+{/* .............. Image section ............ */}
 
         <div className="right">
           <img src={myImg} className="myImg" />

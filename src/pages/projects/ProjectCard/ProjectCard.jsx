@@ -5,9 +5,6 @@ const ProjectCard = ({ title, tech, feature, timestamp, projectLink }) => {
   return (
     <>
       <div className="projectCard">
-        <div className="projectImg">
-          <img src="" alt="" />
-        </div>
 
         <div className="projectDetails">
           <h2>{title} </h2>

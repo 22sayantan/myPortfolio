@@ -1,72 +1,73 @@
-.project{
-    height: 100vh;
-    
-    display: flex;
-    flex-direction: column;
+.project {
+  height: 100vh;
 
-    .title{
-        height: 8vh;
+  display: flex;
+  flex-direction: column;
 
-        font-size: 40px;
+  .title {
+    height: 8vh;
+
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #606060;
+
+    text-align: center;
+    margin-top: 8vh;
+  }
+
+  .skill_nav {
+    width: 40rem;
+    margin: 0 auto;
+    ul {
+      display: flex;
+      justify-content: space-between;
+
+      list-style: none;
+
+      li {
         font-family: sans-serif;
+
+        cursor: default;
+        text-transform: capitalize;
+        text-decoration: none;
         color: #606060;
-        
-        text-align: center;
-        margin-top: 8vh;
+        font-size: 1.2rem;
+      }
     }
-
-    .skill_nav{
-        width: 40rem;
-        margin: 0 auto;
-        ul{
-            display: flex;
-            justify-content: space-between;
-
-            list-style: none;
-
-            li{
-                font-family: sans-serif;
-
-                    cursor: default;
-                    text-transform: capitalize;
-                    text-decoration: none;
-                    color: #606060;
-                    font-size: 1.2rem;
-
-            }
-        }
-    }
-    .content{
-        width: 90%;
-        margin: 10px auto;
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 2rem;
-
-    }
+  }
+  .content {
+    height: 30rem;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+  }
 }
 
-@media only screen and (max-width: 600px){
-    .project{
-        height: fit-content;
-        .title{
-            font-size: 30px;
-            margin-bottom: 0.7rem;
-        }
-        .skill_nav{
-            width: 24rem;
-            margin-bottom: 0.7rem;
-            ul{
-                justify-content: space-evenly;
-
-                li{
-                    font-size: 0.8rem;
-                }
-            }
-        }
-        .content{
-            margin: 5px auto;
-            gap: 0.7rem;
-        }
+@media only screen and (max-width: 600px) {
+  .project {
+    height: fit-content;
+    .title {
+      font-size: 30px;
+      margin-bottom: 0.7rem;
     }
+    .skill_nav {
+      width: 24rem;
+      margin-bottom: 0.7rem;
+      ul {
+        justify-content: space-evenly;
+
+        li {
+          font-size: 0.8rem;
+        }
+      }
+    }
+    .content {
+      margin: 5px auto;
+      gap: 0.7rem;
+    }
+  }
 }

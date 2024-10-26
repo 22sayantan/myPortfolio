@@ -96,8 +96,8 @@ function Skills() {
             <ul>
               {soft_skills.map((e) => (
                 <li key={e}>
-                  <img src={e.img} alt="no img" />
-                  <h4>{e.title}</h4>
+                  <img src={e.img} alt="" />
+                  <h2>{e.id}. {e.title}</h2>
                 </li>
               ))}
             </ul>

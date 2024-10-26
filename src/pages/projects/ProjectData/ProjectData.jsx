@@ -62,6 +62,15 @@
       github: '',
       live: '',
     },
+    {
+      id: 8,
+      img: "",
+      title: "E-learning Platform",
+      tech: 'Flask',
+      category: "python",
+      github: '',
+      live: '',
+    },
 
   ];
 
@@ -80,7 +89,19 @@
     },
     {
       id: 4,
-      item: 'node.js'
+      item: 'Flask'
+    },
+    {
+      id: 5,
+      item: 'Django'
+    },
+    {
+      id: 6,
+      item: 'ML'
+    },
+    {
+      id: 7,
+      item: 'Tkinter'
     }
   ];
   

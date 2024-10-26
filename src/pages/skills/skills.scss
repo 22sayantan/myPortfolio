@@ -1,300 +1,344 @@
-.skills{
-    height: 100vh;
-    
-    display: flex;
-    flex-direction: column;
+.skills {
+  height: 100vh;
 
-    position: relative;
+  display: flex;
+  flex-direction: column;
 
-    overflow:auto;
-    // border: 1px solid red;
-    
-    
-    .title{
-        height: 8vh;
+  position: relative;
 
-        font-size: 40px;
+  overflow: auto;
+  // border: 1px solid red;
+
+  .title {
+    height: 8vh;
+
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #606060;
+
+    text-align: center;
+    margin-top: 8vh;
+  }
+
+  .skill_nav {
+    width: 12rem;
+    margin: 0 auto;
+    ul {
+      display: flex;
+      justify-content: space-between;
+
+      list-style: none;
+
+      li {
+        font-size: 1.2rem;
         font-family: sans-serif;
         color: #606060;
-        
-        text-align: center;
-        margin-top: 8vh;
+
+        cursor: default;
+        text-transform: capitalize;
+        text-decoration: none;
+      }
     }
+  }
+  .container {
+    width: 70%;
+    margin: auto;
 
-    .skill_nav{
-        width: 12rem;
-        margin: 0 auto;
-        ul{
-            display: flex;
-            justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-            list-style: none;
+    .tech {
+      display: flex;
+      flex-direction: column;
 
-            li{
-                    font-size: 1.2rem;
-                    font-family: sans-serif;
-                    color: #606060;
-
-                    cursor: default;
-                    text-transform: capitalize;
-                    text-decoration: none;
-            }
-        }
-    }
-    .container{
-        width: 70%;
+      .tech_skill_nav {
+        margin-bottom: 0.7rem;
+      }
+      .techContent {
+        height: 70vh;
+        width: 30rem;
         margin: auto;
-
         display: flex;
         align-items: center;
         justify-content: center;
 
-        .tech{
+        .primary {
+          display: flex;
+          ul {
+            width: 70rem;
             display: flex;
-            flex-direction: column;
-
-            .tech_skill_nav{
-                margin-bottom: 0.7rem;
-            }
-            .techContent{
-                height: 70vh;
-                width: 30rem;
-                margin: auto;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-
-                .primary{
-                    display: flex;
-                    ul{
-                        width: 70rem;
-                        display: flex;
-                        text-align: center;
-                        justify-content: flex-start;
-                        flex-wrap: wrap;
-
-                        gap: 4rem;
-                        li{
-                            height: 10rem;
-                            width: 10rem;
-                            text-align: center;
-                            img{
-                                height: 8rem;
-                                width: 8rem;
-
-                                object-fit: cover;
-                            }
-                            h4{
-                                font-size: 1.4rem;
-                            }
-                        }
-                    }
-                }
-                .secondary{
-                    display: flex;
-                    ul{
-                        width: 70rem;
-                        display: flex;
-                        text-align: center;
-                        justify-content: flex-start;
-                        flex-wrap: wrap;
-
-                        gap: 4rem;
-                        li{
-                            height: 10rem;
-                            width: 10rem;
-                            text-align: center;
-                            img{
-                                height: 8rem;
-                                width: 8rem;
-
-                                object-fit: cover;
-                            }
-                            h4{
-                                font-size: 1.4rem;
-                            }
-                        }
-                    }
-                }
-            }
-
-            ul{
-                list-style: none;
-
-                li{
-                    font-family: cursive;
-                }
-            }
-        }
-
-        .soft{
-            display: flex;
-            justify-content: center;
-            
-            ul{
-                width: 80rem;
-                list-style: none;
-                line-height: 5rem;
-
-                display: flex;
-                justify-content: space-evenly;
-                
-                li{
-                    width: 15rem;
-
-                    font-family: cursive;
-                    font-size: 24px;
-                    color: #606060;
-                    
-                    text-transform: capitalize;
-
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-
-                    img{
-                        height: 8rem;
-                        width: 8rem;
-
-                        object-fit: cover;
-                    }
-
-                    h4{
-                        font-size: 1.2rem;
-                    }
-                }
-            }
-        }
-    }
-
-}
-
-.active{
-    font-weight: bold;
-    // text-decoration: underline;
-    border-bottom: 2px solid #606060;
-}
-
-.hideContent{
-    display: none;
-}
-
-
-@media only screen and (max-width: 600px){
-    .skills{
-        
-        .title{
-            height: 8vh;
-    
-            font-size: 30px;            
             text-align: center;
-            margin-top: 6vh;
-        }
-    
-        .skill_nav{
-            width: 12rem;
-            margin: 0 auto;
-            ul{
-                list-style: none;
-    
-                li{
-                        font-size: 1rem;
-                }
-            }
-        }
-        .container{
-            width: 70%;
-            margin: auto;
-    
-            .tech{
-                display: flex;
-                flex-direction: column;
-    
-                .tech_skill_nav{
-                    margin-bottom: 0.3rem;
-                }
-                .techContent{
-                    height: 72vh;
-                    width: 30rem;
+            justify-content: center;
+            flex-wrap: wrap;
 
-                    .primary{
-                        display: flex;
-                        ul{
-                            width: 24rem;
+            gap: 4rem;
+            li {
+              height: 3rem;
+              width: fit-content;
+              text-align: center;
+              padding: 5px 10px;
 
-    
-                            gap: 1rem;
-                            margin-left: 1rem;
-                            margin-top: -2rem;
-                            li{
-                                height: 7rem;
-                                width: 7rem;
-                                text-align: center;
-                                img{
-                                    height: 4.5rem;
-                                    width: 4.5rem;
-    
-                                    object-fit: cover;
-                                }
-                                h4{
-                                    font-size: 1rem;
-                                }
-                            }
-                        }
-                    }
-                    .secondary{
-                        display: flex;
-                        ul{
-                            width: 24rem;
-    
-                            gap: 1rem;
-                            li{
-                                height: 7rem;
-                                width: 7rem;
-                                text-align: center;
-                                img{
-                                    height: 4.5rem;
-                                    width: 4.5rem;
-    
-                                    object-fit: cover;
-                                }
-                                h4{
-                                    font-size: 1rem;
-                                }
-                            }
-                        }
-                    }
-                }
-    
-                ul{
-                    list-style: none;
-    
-                    li{
-                        font-family: cursive;
-                    }
-                }
+              display: flex;
+              align-items: center;
+              background-color: lightgray;
+
+              border: 3px solid darkgray;
+              border-radius: 8px;
+              img {
+                height: 2rem;
+                width: 2rem;
+
+                margin-right: 10px;
+                object-fit: cover;
+              }
+              h4 {
+                font-size: 1.4rem;
+              }
             }
-    
-            .soft{
-                display: flex;
-                justify-content: center;
-                flex: 3;
-                
-                ul{
-                    list-style: none;
-                    line-height: 5rem;
-        
-                    li{
-                        font-family: cursive;
-                        font-size: 24px;
-                        color: #606060;
-    
-                        text-transform: capitalize;
-                    }
-                }
-            }
+          }
         }
-    
+        .secondary {
+          display: flex;
+          ul {
+            width: 70rem;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            gap: 4rem;
+            li {
+              height: 3rem;
+              width: fit-content;
+              text-align: center;
+              padding: 5px 10px;
+
+              display: flex;
+              align-items: center;
+              background-color: lightgray;
+
+              border: 3px solid darkgray;
+              border-radius: 8px;
+              img {
+                height: 2rem;
+                width: 2rem;
+
+                margin-right: 10px;
+                object-fit: cover;
+              }
+              h4 {
+                font-size: 1.4rem;
+              }
+            }
+          }
+        }
+      }
+
+      ul {
+        list-style: none;
+
+        li {
+          font-family: cursive;
+        }
+      }
     }
+
+    .soft {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      ul {
+        margin: auto;
+        list-style: none;
+        line-height: 5rem;
+
+        display: flex;
+        // flex-direction: column;
+        justify-content: space-evenly;
+
+        li {
+          width: fit-content;
+
+          font-family: cursive;
+          font-size: 24px;
+          color: #606060;
+
+          text-transform: capitalize;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            height: 2rem;
+            width: 2rem;
+
+            object-fit: cover;
+          }
+
+          h2 {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.active {
+  font-weight: bold;
+  // text-decoration: underline;
+  border-bottom: 2px solid #606060;
+}
+
+.hideContent {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .skills {
+    .title {
+      height: 8vh;
+
+      font-size: 30px;
+      text-align: center;
+      margin-top: 6vh;
+    }
+
+    .skill_nav {
+      width: 12rem;
+      margin: 0 auto;
+      ul {
+        list-style: none;
+
+        li {
+          font-size: 1rem;
+        }
+      }
+    }
+    .container {
+      width: fit-content;
+      margin: auto;
+
+      .tech {
+        display: flex;
+        flex-direction: column;
+
+        .tech_skill_nav {
+          margin-bottom: 0.3rem;
+        }
+        .techContent {
+          height: 72vh;
+          width: fit-content;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .primary {
+            display: flex;
+            ul {
+              width: fit-content;
+
+              gap: 1rem;
+              margin-left: 1rem;
+              margin-top: -2rem;
+              li {
+                height: 3rem;
+                width: fit-content;
+                text-align: center;
+                img {
+                  height: 2rem;
+                  width: 2rem;
+
+                  object-fit: cover;
+                }
+                h4 {
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+          .secondary {
+            display: flex;
+            ul {
+              width: fit-content;
+
+              gap: 1rem;
+              margin-left: 1rem;
+              margin-top: -2rem;
+              li {
+                height: 3rem;
+                width: fit-content;
+                text-align: center;
+                img {
+                  height: 2rem;
+                  width: 2rem;
+
+                  object-fit: cover;
+                }
+                h4 {
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+
+        ul {
+          list-style: none;
+
+          li {
+            font-family: cursive;
+          }
+        }
+      }
+
+      .soft {
+        display: flex;
+        justify-content: center;
+        flex: 3;
+
+        ul {
+          list-style: none;
+          line-height: 5rem;
+
+          display: flex;
+          flex-wrap: wrap;
+
+          li {
+            height: 3rem;
+            width: fit-content;
+
+            padding: 0px 5px;
+
+            font-family: cursive;
+            font-size: 16px;
+            color: #606060;
+
+            text-transform: capitalize;
+
+            background-color: lightgray;
+            border: 2px solid darkgray;
+            border-radius: 10px;
+            margin-right: 5px;
+
+            display: flex;
+
+            img {
+              height: 2rem;
+              width: 2rem;
+
+              margin-right: 10px;
+            }
+
+            h2 {
+                font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
 }

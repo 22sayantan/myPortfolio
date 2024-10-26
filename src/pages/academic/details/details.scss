@@ -78,15 +78,13 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .details {
-    height: 8rem;
-    width: 22rem;
+    height: fit-content;
+    width: fit-content;
 
     margin: 7px;
-    padding-left: 0.8rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 10px;
     border-radius: 7px;
 
     .standard {
