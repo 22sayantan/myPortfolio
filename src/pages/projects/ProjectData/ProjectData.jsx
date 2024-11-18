@@ -93,7 +93,7 @@
     },
     {
       id: 5,
-      item: 'Django'
+      item: 'Web App'
     },
     {
       id: 6,
@@ -101,7 +101,7 @@
     },
     {
       id: 7,
-      item: 'Tkinter'
+      item: 'Desktop App'
     }
   ];
   

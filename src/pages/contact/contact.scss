@@ -1,189 +1,3 @@
-// .contact{
-//     display: flex;
-//     height: 100vh;
-//     // flex-direction: column;
-
-//     position: relative;
-//     padding-top: 8vh;
-
-//     overflow:auto;
-//     // border: 1px solid red;
-
-//     .left{
-//         flex: 5;
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         // justify-content: center;
-
-//         h2{
-//             font-family: serif;
-//             font-size: 30px;
-//             color: #606060;
-//             text-transform: capitalize;
-//             padding-bottom: 4rem;
-//         }
-//         h3{
-//             color: red;
-//         }
-//         .contactForm{
-//             display: flex;
-//             flex-direction: column;
-
-//             color: lightgray;
-//             border-color: lightgray;
-            
-//             input,label,textarea{
-//                 font-family: serif;
-//                 font-size: 18px;
-
-//                 color: lightgray;
-//             }
-
-//             input{
-//                 background-color: transparent;
-//                 height: 2rem;
-//                 width: 20rem;
-//                 outline: 0;
-//                 border: transparent;
-//                 border-bottom: 1px solid #000;;
-//             }
-
-//             input:focus{
-//                 transform: scale(1.1);
-//             }
-//             input:focus::placeholder{
-//                 color: transparent;
-//             }
-
-//             textarea{
-//                 height: 10rem;
-//                 width: 24rem;
-//                 outline: 0;
-
-//                 padding: 10px;
-//                 resize: none;
-//                 border-radius: 5px;
-//             }
-
-//             textarea:focus{
-//                 transform: scale(1.1);
-//             }
-
-//             button{
-//                 height: 2.7rem;
-//                 width: 5.4rem;
-                
-//                 font-size: 16px;
-//                 font-family: sans-serif;
-//                 color: lightgray;
-//                 background-color: transparent;
-//                 outline: 0;
-//                 border: 2px solid lightgray;
-//                 border-radius: 5px;
-//                 // cursor: pointer;
-//                 margin: 2rem 0 0 8rem;
-
-//                 display: flex;
-//                 align-items: center;
-//                 justify-content: center;
-
-//                 i{
-//                     margin-left: 8px;
-//                 }
-//             }
-//         }
-//     }
-
-//     .right{
-//         flex: 5;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-//         flex-direction: column;
-
-//         .myCard{
-//             display: flex;
-//             // align-items: center;
-//             // justify-content: center;
-//             flex-direction: column;
-//             float: right;
-//             height: 9rem;
-//             width: 24rem;
-//             background-image: linear-gradient(to top right,#bcd8ff,#e8f2ff, #f8fafd,#fefefe,white);
-//             border: 1px solid #dae9ff;
-//             border-radius: 5px;
-//             box-shadow: 3px 3px 3px#bdc0c5;
-
-//             div{
-//                 height: 7rem;
-//                 display: flex;
-//                 img{
-//                     height: 7rem;
-//                     width: 7rem;
-//                     border: 3px solid #bbbbbb;
-//                     border-radius: 0% 0% 30% 0%;
-//                     background-color: gray;
-//                     object-fit: cover;
-//                     filter: brightness(1.15);
-//                 }
-                
-//                 .CardContent{
-//                     height: 7rem;
-//                     margin: 10px;
-//                     margin-top: 0;
-//                     margin-left: 15px;
-//                     padding: 10px;
-//                     line-height: 1rem;
-//                     font-family: sans-serif;
-
-//                     display: flex;
-//                     flex-direction: column;
-    
-//                     h2{
-//                         font-size: 25px;
-//                         color: #01015e;
-//                     }
-    
-//                     h3{
-//                         font-size: 16px;
-//                         color: #5c5c5c;
-//                     }
-    
-//                     h6{
-//                         font-size: 12px;
-//                     }
-    
-//                     h2,h3,h4,h5,h6{
-//                         padding-bottom: 7px;
-//                     }
-
-//                     .icons{
-//                         .link{
-//                             cursor: pointer;
-//                             display: inline-flex;
-//                             margin-right: 10px;
-//                             font-size: 20px;
-        
-//                             color: #505050;
-//                         }
-//                     }
-    
-//                 }
-//             }
-//             .no_mail{
-//                 height: 2rem;
-//                 width: 24rem;
-//                 display: flex;
-//                 align-items: center;
-//                 justify-content: space-evenly;
-
-//                 font-size: 15px;
-//             }
-//         }
-//     }
-// }
-
 .contact{
     header{
         h1{
@@ -194,16 +8,32 @@
         }
     }
     .Contact_me{
+        width: 70%;
+        margin: auto;
         text-transform: capitalize;
-        h1{
-            text-decoration: underline;
-            margin-left: 12rem;
-            font-size: 2rem;
-        }
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
         h3{
-            margin-left: 25rem;
-            font-size: 1.7rem;
             padding: 2rem 0;
+
+            font-size: 1.2rem;
+            text-align: center;
+
+            display: grid;
+
+            a{
+                cursor: pointer;
+                img{
+                    height: 3rem;
+                    padding: 0.5rem;
+                    border: 2px solid blue;
+                    border-radius: 10px;
+                    
+                }
+            }
+
         }
     }
 }

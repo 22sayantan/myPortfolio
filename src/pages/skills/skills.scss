@@ -150,26 +150,26 @@
       justify-content: center;
 
       ul {
-        margin: auto;
-        list-style: none;
-        line-height: 5rem;
-
+        width: 70rem;
         display: flex;
-        // flex-direction: column;
-        justify-content: space-evenly;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        gap: 4rem;
 
         li {
+          height: 3rem;
           width: fit-content;
-
-          font-family: cursive;
-          font-size: 24px;
-          color: #606060;
-
-          text-transform: capitalize;
+          text-align: center;
+          padding: 5px 10px;
 
           display: flex;
           align-items: center;
-          justify-content: center;
+          background-color: lightgray;
+
+          border: 3px solid darkgray;
+          border-radius: 8px;
 
           img {
             height: 2rem;
@@ -297,44 +297,25 @@
 
       .soft {
         display: flex;
-        justify-content: center;
-        flex: 3;
-
         ul {
-          list-style: none;
-          line-height: 5rem;
+          width: fit-content;
 
-          display: flex;
-          flex-wrap: wrap;
-
+          gap: 1rem;
+          margin-left: 1rem;
+          margin-top: -2rem;
           li {
             height: 3rem;
             width: fit-content;
-
-            padding: 0px 5px;
-
-            font-family: cursive;
-            font-size: 16px;
-            color: #606060;
-
-            text-transform: capitalize;
-
-            background-color: lightgray;
-            border: 2px solid darkgray;
-            border-radius: 10px;
-            margin-right: 5px;
-
-            display: flex;
+            text-align: center;
 
             img {
               height: 2rem;
               width: 2rem;
-
-              margin-right: 10px;
+              object-fit: cover;
             }
 
             h2 {
-                font-size: 14px;
+              font-size: 14px;
             }
           }
         }
