@@ -21,7 +21,7 @@ export default function Contact() {
         </div>
         <div className="facebook">
           <h3>
-            <a href="https://www.linkedin.com/in/sayantan-dolui-a59524223">
+            <a href="https://www.facebook.com/profile.php?id=100007368376074">
               <img src={Facebook} alt="" />
             </a>
             Facebook
@@ -29,7 +29,7 @@ export default function Contact() {
         </div>
         <div className="instagram">
           <h3>
-            <a href="https://www.linkedin.com/in/sayantan-dolui-a59524223">
+            <a href="https://www.instagram.com/sayantan_dolui/">
               <img src={Instagram} alt="" />
             </a>
             Instagram
@@ -37,7 +37,7 @@ export default function Contact() {
         </div>
         <div className="Gmail">
           <h3>
-            <a href="https://www.linkedin.com/in/sayantan-dolui-a59524223">
+            <a href="mailto:sayantandolui97@gmail.com">
               <img src={Gmail} alt="" />
             </a>
             Gmail
