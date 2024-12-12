@@ -47,7 +47,7 @@ export default function Project() {
                       title={item.title}
                       tech={item.category}
                       timestamp="mm/yyyy"
-                      projectLink="https://22sayantan.github.io/YoutubeClone/"
+                      projectLink=""
                     />
                   );
                 });

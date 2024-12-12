@@ -102,7 +102,7 @@
     },
     {
       id: 5,
-      item: 'Web App'
+      item: 'WebApp'
     },
     {
       id: 6,

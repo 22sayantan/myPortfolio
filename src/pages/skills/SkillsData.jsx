@@ -76,7 +76,7 @@ export const Secondary_Tech_skills = [
     title: "Linux",
   },
   {
-    id: 6,
+    id: 7,
     img: Linux,
     title: "Django",
   },
