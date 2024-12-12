@@ -75,6 +75,11 @@ export const Secondary_Tech_skills = [
     img: Linux,
     title: "Linux",
   },
+  {
+    id: 6,
+    img: Linux,
+    title: "Django",
+  },
 ];
 
 export const soft_skills = [
