@@ -80,7 +80,15 @@
       github: '',
       live: '',
     },
-
+    {
+      id: 10,
+      img: "",
+      title: "Credit card fraud detection",
+      tech: 'Python,numpy,pandas,seaborn',
+      category: "ML",
+      github: '',
+      live: '',
+    },
   ];
 
   export const ProjHeaderList = [
