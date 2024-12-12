@@ -76,7 +76,7 @@
       img: "",
       title: "ERP system",
       tech: 'Django',
-      category: "WebApp",
+      category: "Django",
       github: '',
       live: '',
     },
@@ -90,7 +90,7 @@
     },
     {
       id:2,
-      item: 'react.js',
+      item: 'react',
     },
     {
       id:3,
@@ -102,7 +102,7 @@
     },
     {
       id: 5,
-      item: 'WebApp'
+      item: 'Django'
     },
     {
       id: 6,
